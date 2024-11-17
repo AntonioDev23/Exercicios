@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        caption {
+            font-size: 1.3rem;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: darkgrey;
+        }
+
+        .cor {
+            background-color: white;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <table>
+        <caption></caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Àrea</th>
+                <th rowspan="2">Disciplina</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Media</th>
+            </tr>
+            <tr>
+                <th>Notas 1</th>
+                <th>Notas 2</th>
+            </tr>
+            <tr>
+                <th rowspan="4" class="cor"> Exercício</th>
+                <td>Matemática</td>
+                <td>9,5</td>
+                <td>8.</td>
+                <td>8,75</td>   
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>7</td>
+                <td>8,5</td>
+                <td>7,75 </td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>9</td>
+                <td>10</td>
+                <td>9,5</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>8</td>
+                <td>9,5</td>
+                <td>8,75</td>
+            </tr>
+            <tr>
+                <th colspan="5"> Média de Exatas</th>
+            </tr>
+            <tr>
+                <th rowspan="2" class="cor">Humanas</th>
+                <td>História</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th colspan="5"> Média de Humanas</th>
+            </tr>
+    </thead>
+    </table>
+</body>
+</html>

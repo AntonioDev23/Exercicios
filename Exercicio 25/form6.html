@@ -20,7 +20,8 @@
         </p>
         <p>
             <label for="satis"> Nível de satisfação</label>
-            <input type="range" name="satisfação" id="satis" min="0" maxlength="10">
+            <input type="range" name="satisfação" id="satis" min="0" max="10" oninput="sat.innerHTML = Number (satis.value)">
+            <output id="sat">1</output>
         </p>
     </fieldset>
            <input type="submit" value="Enviar">
